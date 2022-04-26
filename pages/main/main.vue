@@ -15,8 +15,8 @@
 	export default {
 		data() {
 			return {
-				latitude: 23.099994,
-				longitude: 113.324520,
+				latitude: '',
+				longitude: '',
 				userPhone: '',
 				msgList: []
 			}

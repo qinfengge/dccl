@@ -157,7 +157,9 @@ var _default =
 {
   data: function data() {
     return {
-      isLogin: true };
+      isLogin: true,
+      vid: "https://onemanger.qinfengge.xyz/odCnSp/C__%E5%8F%88%E5%91%A8%E6%9C%AB%E4%BA%86%E5%86%8D%E8%BF%8715%E4%B8%AA%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%8F%88%E4%BA%94%E4%B8%80%E4%BA%86%E5%93%88%E5%93%88%E5%93%88%E5%93%88%20%23%E5%8E%9F%E7%9B%B8%E6%9C%BA.mp4",
+      eggsCount: 0 };
 
   },
   methods: {
@@ -170,6 +172,12 @@ var _default =
       uni.navigateTo({
         url: '../login/register' });
 
+    },
+    eggs: function eggs() {
+      this.eggsCount++;
+      if (this.eggsCount >= 10) {
+        this.vid = "https://onemanger.qinfengge.xyz/odCnSp/C__%E9%82%A3%E5%B0%B1%E7%95%99%E5%9C%A8%E6%88%91%E8%BA%AB%E8%BE%B9%20%E7%88%B1%E4%B8%8E%E7%9C%9F%E8%AF%9A%E9%83%BD%E7%BB%99%E4%BD%A0%23fyp%20%23%E7%97%9E%E5%B8%85.mp4";
+      }
     } } };exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 

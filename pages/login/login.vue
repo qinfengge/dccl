@@ -11,7 +11,7 @@
 					v-model="phoneData"
 					type="text"
 					maxlength="11"
-					placeholder="用户名/电话"
+					placeholder="电话"
 					:focus="isFocus"
 				></wInput>
 				<wInput

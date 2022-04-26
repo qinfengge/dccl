@@ -10,6 +10,14 @@ export function Dlogin(phone,pwd) {
 	});
 }
 
+// 司机注册
+export function Dregister(name,phone,pwd) {
+	return uni.request({
+		url: `${baseUrl}/register/${name}/${phone}/${pwd}`,
+		method: 'POST'
+	});
+}
+
 // 根据司机手机号获取GPS设备
 export function getDevice(phone) {
 	return uni.request({

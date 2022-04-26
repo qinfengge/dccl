@@ -176,7 +176,7 @@ var _api = __webpack_require__(/*! ../../common/api.js */ 34); //
 //
 //
 //
-var _default = { data: function data() {return { latitude: 23.099994, longitude: 113.324520, userPhone: '', msgList: [] };}, onReady: function onReady() {this._mapContext = uni.createMapContext("map", this);},
+var _default = { data: function data() {return { latitude: '', longitude: '', userPhone: '', msgList: [] };}, onReady: function onReady() {this._mapContext = uni.createMapContext("map", this);},
   created: function created() {
     this.getGPS();
     this.getUserInfo();
